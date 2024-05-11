@@ -1,0 +1,23 @@
+7. Fiber:
+    ~it is an algorithm used in react to optimize performance.
+    ~
+8. Reconciliation:
+    it is generally understood as 'Virtual DOM`,
+    ~it replaces that node of the dom tree where the update is done and does not change the whole DOM as such(component rendering)
+    ~it is also a method to distinguish between 2 trees(DOM - real and virtual)
+9. You can simply change the following codes in your style.css and it will work.
+
+from this
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+to this
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+Rest of the codes remain same. Only the above needs to be changed and you're good to go. This usually happens in tailwind v3.
+
+10. rfce-snippet react

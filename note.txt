@@ -1,3 +1,17 @@
+1. download via " npx create-react-app 01basic "
+react comes with
+    1. react-dom(for web)
+    2. react-native(for mobile)
+2. npm create vite@latest
+3. give project name,react,javascript,cd,npm install,npm run dev
+4. src re only  main.jsx,app.jsx khali thiba
+5. function name should be in cap init only
+6. git
+    0. git checkout your-branch-name
+    1. git add .
+    2. git commit -m "Your commit message here"
+    3. git push / git push origin your-branch-name
+    4. git push origin branch-name 
 7. Fiber:
     ~it is an algorithm used in react to optimize performance.
     ~
@@ -5,19 +19,38 @@
     it is generally understood as 'Virtual DOM`,
     ~it replaces that node of the dom tree where the update is done and does not change the whole DOM as such(component rendering)
     ~it is also a method to distinguish between 2 trees(DOM - real and virtual)
-9. You can simply change the following codes in your style.css and it will work.
-
-from this
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-to this
-
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-Rest of the codes remain same. Only the above needs to be changed and you're good to go. This usually happens in tailwind v3.
-
+9.  a) 
+        npm install -D tailwindcss postcss autoprefixer
+        npx tailwindcss init -p
+    b)
+        /** @type {import('tailwindcss').Config} */
+        export default {
+          content: [
+            "./index.html",
+            "./src/**/*.{js,ts,jsx,tsx}",
+          ],
+          theme: {
+            extend: {},
+          },
+          plugins: [],
+        }
+    c)
+        in index.css file
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+        or
+        @import "tailwindcss/base";
+        @import "tailwindcss/components";
+        @import "tailwindcss/utilities";
 10. rfce-snippet react
+11. difference between setcounter(counter+1),setcounter(prevCounter=>prevCounter+1)
+12. setcounter(counter+1)
+    setcounter(counter+1)
+    setcounter(counter+1)
+    setcounter(counter+1)
+    vs 
+    setcounter(prevCounter=>prevCounter+1)
+    setcounter(prevCounter=>prevCounter+1)
+    setcounter(prevCounter=>prevCounter+1)
+    setcounter(prevCounter=>prevCounter+1)

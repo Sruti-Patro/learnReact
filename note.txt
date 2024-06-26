@@ -23,6 +23,7 @@ react comes with
         npm install -D tailwindcss postcss autoprefixer
         npx tailwindcss init -p
     b)
+        in tailwind.Config.js file
         /** @type {import('tailwindcss').Config} */
         export default {
           content: [

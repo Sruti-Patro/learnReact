@@ -55,3 +55,5 @@ react comes with
     setcounter(prevCounter=>prevCounter+1)
     setcounter(prevCounter=>prevCounter+1)
     setcounter(prevCounter=>prevCounter+1)
+13.To install react router dom :  npm i react-router-dom
+this is to be done in that react project folder,not universally
